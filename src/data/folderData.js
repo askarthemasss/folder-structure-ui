@@ -62,7 +62,7 @@ export const folderData = [
     },
     {
         id : 2,
-        name : "package.json",
+        name : "README.md",
         isFolder : false,
     }
 ]
