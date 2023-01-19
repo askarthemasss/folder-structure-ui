@@ -11,17 +11,29 @@
   /* font-family: 'Ubuntu', sans-serif; */
   font-family: 'Roboto Slab', serif;
   font-size: 1.6rem;
-  position: absolute;
-
+  /* position: absolute; */
+  border: 1px solid gray;
+  min-height: 50vh;
+  max-width: 30vw;
+  overflow: hidden;
 }
 
 .folder-span, .file-span{
-  position: relative;
-  left: 2em;
-  /* margin-left: 2em; */
+  /* position: relative; */
+  /* left: 2em; */
+  /* margin-top: 2em; */
   cursor: pointer;
-  border: 1px solid gray;
   /* padding: 2rem; */
   /* z-index: inherit; */
-  margin: 2rem;
+  /* margin: 2rem; */
+  /* border: 1px solid gray; */
+  display: inline;
+  white-space:nowrap;
+}
+
+@media (max-width: 600px) {
+  .App {
+    font-size: 1rem;
+    min-width: 40vw;
+  }
 }
