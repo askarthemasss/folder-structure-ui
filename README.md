@@ -7,3 +7,5 @@
 ## stack
 - React.js
 
+## live link
+https://k8lil3-3000.preview.csb.app/
